@@ -391,6 +391,15 @@ def run_train_bpe(
 
 ---
 
+**补充参考资源**
+
+- **Andrej Karpathy's microgpt (强烈推荐!)**: https://karpathy.ai/microgpt.html
+- **GPT-2 Paper**: Language Models are Unsupervised Multitask Learners
+- **OpenAI's tiktoken**: https://github.com/openai/tiktoken
+- **Stanford CS336 Assignment 1**: https://github.com/stanford-cs336/assignment1-basics
+
+---
+
 > 思考题：
 > 1. 如果要让 BPE 处理中文，需要做什么特殊处理？
 > 2. 为什么 encode 和 decode 必须是严格的「往返相等」？
