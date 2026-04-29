@@ -1,0 +1,66 @@
+# NexT alternate theme config
+
+scheme: Pisces
+darkmode: false
+
+menu:
+  home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-user
+
+sidebar:
+  position: left
+  display: always
+  padding: 18
+
+avatar:
+  url: /images/微信图片_20260429102541.jpg
+  rounded: true
+  rotated: false
+
+site_state: true
+
+social:
+  GitHub: https://github.com/Alley-dot || fab fa-github
+  E-Mail: mailto:1073507861@qq.com || fa fa-envelope
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: false
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+symbols_count_time:
+  separated_meta: true
+  item_text_total: false
+
+toc:
+  enable: true
+  number: true
+  wrap: false
+  expand_all: false
+  max_depth: 3
+
+read_more_btn: true
+excerpt_description: true
+
+local_search:
+  enable: true
+  top_n_per_article: 2
+  unescape: false
+  preload: true
+
+footer:
+  powered: false
+
+custom_file_path:
+  style: source/_data/styles.styl
